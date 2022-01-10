@@ -1,16 +1,66 @@
-        .task2{border:1px solid yellowgreen;position:relative;}
-        .more_div{width:400px; height: 300px;background-color: violet;}
-        .position_relative{
-            height: 100px;width:100px;position:relative;top:10px;left:0;background-color: rgb(236, 127, 127);z-index: 1;
+        section{
+            margin:0 auto;
+            position:relative;
         }
-        .position_absolute{
-            height: 100px;width:100px;position:absolute;top:50px;left:50px;background-color: rgb(0, 255, 21);
+        .esborder{
+            border:1px solid gray;
+        }
+        .task2{
+            border:1px solid yellowgreen;
+            position:relative;
+            background-color: goldenrod;
+            z-index: 2;
+        }
+        .more_div{width:400px;
+             height: 300px;
+             background-color: violet;
+            
+            }
+        .position_box{
+            border-radius:30px;
+            padding:10px;
+            color:white;
+            text-align: center;
+            
+        }
+        .position_relative{
+            height: 100px;
+            width:100px;
+            position:relative;
+            top:10px;
+            right: 20px;
+            padding: 10px;
+            background-color: rgb(236, 127, 127);
+            z-index: 1;
         }
         .position_sticky{
-            height: 100px;width:100px;position:sticky;top:100px;left:100px;background-color: rgb(61, 9, 202);
+            height: 100px;
+            width:100px;
+            position:sticky;
+            top:1000px; /*top এর নিচে n px থাকতে মুভ হবে।  */
+            left:0px; 
+           /* right:1500px; বামে অতিক্রম করে না*/
+            color:wheat;
+            padding:10px;
+            background-color: rgb(61, 9, 202);
         }
+        .position_absolute{
+            height: 100px;
+            width:100px;
+            position:absolute;
+            top:50px;
+            right:200px;
+            background-color: rgb(0, 255, 21);
+        }
+       
         .position_fixed{
-            height: 100px;width:100px;position:fixed;top:200px;left:200px;background-color: red;
+            height: 100px;
+            width:100px;
+            position:fixed;
+            top:200px;
+            right:50px;
+            background-color: red;
+            z-index:3;
         }
         table{
             background-color: turquoise;border-collapse: collapse;

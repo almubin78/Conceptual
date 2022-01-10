@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="refresh" content="10">
+    <meta http-equiv="refresh" content="300">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Conceptual</title>
 </head>
 <body>
-    <section class="Task1">
+    <section class="Task1 esborder">
         <h1>There are Some List for inline, Block and inline-block</h1>
             <ol>
                 <h2>There are 7 inline element are given below</h2>
@@ -40,21 +40,23 @@
         <a href="https://stackoverflow.com/" target="_blank">স্ট্যাকওভারফ্লো এর একটা লিংক</a>
         </ol>
     </section>
-    <section class="task2">
+    <section class="task2 esborder">
         <h1>Position and z-index</h1>
-            <div class="position_relative"></div>
-            <div class="position_absolute"></div>
-            <div class="position_sticky">বক্সের নিচে যামুনা </div>
-            <div class="position_fixed">আমি সর্বত্র</div>
+           <div class="position_sticky position_box">বক্সের বাইরে যামুনা কারন আমি স্টিকি top:0px;
+            right:10px;</div>
+             <div class="position_absolute position_box">আমি এবসোলিট top:50px;
+                right:200px;</div>
+            <div class="position_relative position_box">আমি রিলেটিভ top:10px;
+                right: 10px;</div>          
+            
+            <div class="position_fixed position_box">আমি ফিক্সড top:200px;
+                right:50px;</div>
             <div class="more_div">this is dummy text-1</div>
             <div class="more_div">this is dummy text-2</div>
             <div class="more_div">this is dummy text-3</div>
-            <div class="more_div">this is dummy text-4</div>
-            <div class="more_div">this is dummy text-5</div>
-            <div class="more_div">this is dummy text-6</div>
-            <div class="more_div">this is dummy text-7</div>
+           
     </section>
-    <section class="task3">
+    <section class="task3 esborder">
         <table>
             <caption>this is a table</caption>
             <thead>
@@ -96,7 +98,7 @@
             </tfoot>
         </table>
     </section> -->
-    <section class="task4">
+    <section class="task4 esborder">
         <h1>This is the Header Tag By Sementic element</h1>
         <header>
             <div class="sementic">
@@ -132,6 +134,14 @@
             </div>
         </header>
     </section>
+    <section class="task5">
+        <h1>This is local video</h1>
+            <video src="Video/New_Animated_Website_Design_Using_HTML_And_CSS_Step_By_Step_Tutorial_2020(720p).mp4" controls width="500" height="400"></video>
+        <h1>This is Youtube Video</h1>
+        <iframe src="https://www.youtube.com/embed/2PWmd1bUCpk?autoplay=1&mute=1" frameborder="1" widht="900" height="500">
 
+        </iframe>
+    </section>
+    
 </body>
 </html>
