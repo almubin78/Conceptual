@@ -1,6 +1,8 @@
         section{
-            margin:0 auto;
+            margin:15px 200px;
+            padding:
             position:relative;
+
         }
         .esborder{
             border:1px solid gray;
@@ -11,10 +13,10 @@
             background-color: goldenrod;
             z-index: 2;
         }
-        .more_div{width:400px;
+        .more_div{width:50%;
              height: 300px;
              background-color: violet;
-            
+            padding:10px;
             }
         .position_box{
             border-radius:30px;
@@ -28,7 +30,7 @@
             width:100px;
             position:relative;
             top:10px;
-            right: 20px;
+            right:0px;
             padding: 10px;
             background-color: rgb(236, 127, 127);
             z-index: 1;
@@ -37,8 +39,8 @@
             height: 100px;
             width:100px;
             position:sticky;
-            top:1000px; /*top এর নিচে n px থাকতে মুভ হবে।  */
-            left:0px; 
+            top:-10px; /*top এর নিচে n px থাকতে মুভ হবে।  */
+            left:50px; 
            /* right:1500px; বামে অতিক্রম করে না*/
             color:wheat;
             padding:10px;
@@ -50,7 +52,7 @@
             position:absolute;
             top:50px;
             right:200px;
-            background-color: rgb(0, 255, 21);
+            background-color: rgb(144, 192, 148);
         }
        
         .position_fixed{
@@ -59,18 +61,30 @@
             position:fixed;
             top:200px;
             right:50px;
-            background-color: red;
+            background-color: rgb(245, 137, 245);
             z-index:3;
+        }
+        .relandStiky{
+            display:flex;
+            margin-left:10px;
         }
         table{
             background-color: turquoise;border-collapse: collapse;
         }
         th,td{ padding:2px 10px;border:1px solid black;}
-        .task4{margin:50px;padding:50px;}
-        header{display: flex;}
+
+        .task4{margin:50px;padding:10px;}
+       
         strong{
             color:brown;font-size: 25px;
         }
+        header{display: flex;}
         .sementic{
-            width:33%;background-color: burlywood; margin-left: 10px; padding: 10px;min-height: 1000px;
+             
+             width:33%;
+             background-color: burlywood;
+             margin-left: 5px; 
+             padding: 10px;
+             height:200px;
+             overflow: scroll;
         }

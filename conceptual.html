@@ -6,6 +6,7 @@
     <meta http-equiv="refresh" content="300">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/753f8bba3e.js" crossorigin="anonymous"></script>
     <title>Conceptual</title>
 </head>
 <body>
@@ -40,23 +41,40 @@
         <a href="https://stackoverflow.com/" target="_blank">স্ট্যাকওভারফ্লো এর একটা লিংক</a>
         </ol>
     </section>
-    <section class="task2 esborder">
+    <section class="task2 esborder position">
         <h1>Position and z-index</h1>
-           <div class="position_sticky position_box">বক্সের বাইরে যামুনা কারন আমি স্টিকি top:0px;
-            right:10px;</div>
-             <div class="position_absolute position_box">আমি এবসোলিট top:50px;
-                right:200px;</div>
-            <div class="position_relative position_box">আমি রিলেটিভ top:10px;
-                right: 10px;</div>          
+        
+                 <div class="position_sticky position_box">বক্সের বাইরে যামুনা কারন আমি স্টিকি top:0px;
+                    right:10px;</div>
+                <div class="position_absolute position_box">আমি এবসোলিট top:50px;
+                    right:200px;</div>
+                <div class="position_relative position_box">আমি রিলেটিভ top:10px;
+                    right: 10px;</div>          
+                
+                <div class="position_fixed position_box">আমি ফিক্সড top:200px;
+                    right:50px;</div>
+            <div class="relandStiky">
+                    <div class="more_div">
+                        
+                        <p>⤐Position relative  এ left top right bottom দিয়ে কাজ করতে হবে , এই সময় ইলিমেন্ট তার আগের স্থান ছেড়ে দেয় না।
+
+                            left/top/rihgt/bottom অর্থ হল তার নিজস্ব স্থান থেকে সেইদিক থেক left:10px অর্থ বাম থেকে ডানে দশ পিক্সেল যাবে, top:10px অর্থ উপর থেকে নিচে দশ পিক্সেল যাবে। right:10px অর্থ ডান থেকে বামে দশ পিক্সেল যাবে। নিজের জায়গার সাপেক্ষে সবদিকেই মুভ হয়।প্যারেন্টকে অতিক্রম করে।</p><br><hr>
+                        <p>⤐position:sticky  left/top/rihgt/bottom অর্থ হল তার নিজস্ব স্থান থেকে সেইদিক থেক left:10px অর্থ বাম থেকে ডানে দশ পিক্সেল যাবে, top:10px অর্থ উপর থেকে নিচে দশ পিক্সেল যাবে। right:10px অর্থ ডান থেকে বামে দশ পিক্সেল যাবে। তবে উপরে নিচে ডানে বামে প্যারেন্টকে অতিক্রম করে না।
+                            Reletive and sticky নিজের জায়গার সাপেক্ষে মুভ হয়।</p>
+                   </div>
+                    <div class="more_div">
+                        <p>⤐Position absolute এ left top দিয়ে কাজ করতে হবে ,এই সময় ইলিমেন্ট তার আগের স্থান ছেড়ে দিয়ে ভাসা 
+                            ভাসা অবস্থায় থাকবে। এটির প্যারেন্ট কে relative না করলে বডির সাপেক্ষে পজিসনিং হবে। </p> <br> <br>
+                    
+                         <p>⤐position:fixed সেইম কাজ , তবে এটি কোন কিছুর মধ্যে সিমাবদ্ধ থাকবে না। অর্থাৎ sticky এর উল্টো আচরনের মত আর কি।
+                            Absolute and Fixed, Parent এর সাপেক্ষে মুভ হয়। </p>
+                    </div>
+            </div>
             
-            <div class="position_fixed position_box">আমি ফিক্সড top:200px;
-                right:50px;</div>
-            <div class="more_div">this is dummy text-1</div>
-            <div class="more_div">this is dummy text-2</div>
-            <div class="more_div">this is dummy text-3</div>
+            
            
     </section>
-    <section class="task3 esborder">
+    <section class="task3 esborder table">
         <table>
             <caption>this is a table</caption>
             <thead>
@@ -98,7 +116,7 @@
             </tfoot>
         </table>
     </section> -->
-    <section class="task4 esborder">
+    <section class="task4 esborder sementiC">
         <h1>This is the Header Tag By Sementic element</h1>
         <header>
             <div class="sementic">
@@ -134,14 +152,16 @@
             </div>
         </header>
     </section>
-    <section class="task5">
+    <section class="task5 videos">
         <h1>This is local video</h1>
             <video src="Video/New_Animated_Website_Design_Using_HTML_And_CSS_Step_By_Step_Tutorial_2020(720p).mp4" controls width="500" height="400"></video>
         <h1>This is Youtube Video</h1>
-        <iframe src="https://www.youtube.com/embed/2PWmd1bUCpk?autoplay=1&mute=1" frameborder="1" widht="900" height="500">
+        <iframe src="https://www.youtube.com/embed/2PWmd1bUCpk?autoplay=0&mute=1" frameborder="1" widht="900" height="500">
 
         </iframe>
     </section>
-    
+    <section class="task6 fontawesome">
+        <p>Join us</p> <a target="" href=""><i class="fab fa-facebook-square"></i></a>
+    </section>
 </body>
 </html>
